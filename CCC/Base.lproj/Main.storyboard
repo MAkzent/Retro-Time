@@ -50,7 +50,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Retro Time!" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="always" id="ZZ2-3n-mSi">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="71d-ga-2VD">
-                            <color key="tintColor" red="0.1215686275" green="0.76862745099999996" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.83137254901960778" green="0.0" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="clickNewMessage:" destination="e1v-5e-A8p" id="hLe-rH-6YX"/>
                             </connections>
