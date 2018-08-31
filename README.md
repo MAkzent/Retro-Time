@@ -1,5 +1,5 @@
 <p align="center">
-  <h1>Retro Time!</h1>
+  <p style="font-size: 2em">Retro Time!</p>
   <img alt="appIcon" title="appIcon" src="images/appIcon.png" width="auto" height="160px">
 </p>
 
