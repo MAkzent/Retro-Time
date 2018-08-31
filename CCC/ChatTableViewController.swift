@@ -42,10 +42,10 @@ class ChatTableViewController: UITableViewController {
     
     
     @IBAction func clickNewMessage(_ sender: AnyObject) {
-        let alert = UIAlertController(title: "New Message",
-                                      message: "Write a message to CC!",
+        let alert = UIAlertController(title: "New Item",
+                                      message: "Give it a title and your sentiment 🤔",
                                       preferredStyle: .alert)
-        let positiveSave = UIAlertAction(title: "Positive",
+        let positiveSave = UIAlertAction(title: "🤩",
                                        style: .default) { _ in
             // 1
             guard let textField = alert.textFields?.first,
@@ -64,7 +64,7 @@ class ChatTableViewController: UITableViewController {
             }
         }
         
-        let mehSave = UIAlertAction(title: "Meh",
+        let mehSave = UIAlertAction(title: "😐",
                                        style: .default) { _ in
             // 1
             guard let textField = alert.textFields?.first,
@@ -83,7 +83,7 @@ class ChatTableViewController: UITableViewController {
             }
         }
         
-        let negativeSave = UIAlertAction(title: "Negative",
+        let negativeSave = UIAlertAction(title: "😤",
                                        style: .default) { _ in
             // 1
             guard let textField = alert.textFields?.first,
