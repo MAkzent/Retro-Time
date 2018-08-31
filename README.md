@@ -29,7 +29,7 @@ This app was created during my time as a student at Code Chrysalis. It was built
   <img alt="demo" title="demo" src="images/demo.gif" width="auto" height="500px">
 </p>
 
-Current Features:
+### Current Features:
 
 * See a list of items your team added, sorted by sentiment
 * Add a new item along with your sentiment (positive, meh, negative)
@@ -37,7 +37,7 @@ Current Features:
 * Upvote items!
 * Uses Firebase's Realtime DB to store and update data in real time
 
-Future Features / Ideas for PRs: 
+### Future Features / Ideas for PRs: 
 
 * Authentication -> We want to see who posted and restrict upvotes to one vote per item
 * Add a swipe action to mark items as 'discussed' once they have been discussed during the retro (item's should move to the bottom of the list then)
