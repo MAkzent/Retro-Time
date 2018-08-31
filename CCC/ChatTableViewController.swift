@@ -45,7 +45,7 @@ class ChatTableViewController: UITableViewController {
         let alert = UIAlertController(title: "New Item",
                                       message: "Give it a title and your sentiment 🤔",
                                       preferredStyle: .alert)
-        let positiveSave = UIAlertAction(title: "🤩",
+        let positiveSave = UIAlertAction(title: "👍",
                                        style: .default) { _ in
             // 1
             guard let textField = alert.textFields?.first,
@@ -83,7 +83,7 @@ class ChatTableViewController: UITableViewController {
             }
         }
         
-        let negativeSave = UIAlertAction(title: "😤",
+        let negativeSave = UIAlertAction(title: "💩",
                                        style: .default) { _ in
             // 1
             guard let textField = alert.textFields?.first,
@@ -127,15 +127,18 @@ class ChatTableViewController: UITableViewController {
         let singleMessage = messages[indexPath.row]
         cell.textLabel?.text = singleMessage.message
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 20)
-        cell.detailTextLabel?.text = String(singleMessage.count) + " students agree"
         cell.detailTextLabel?.textColor = .white
         cell.textLabel?.textColor = .white
         if singleMessage.sentiment == "0" {
             cell.backgroundColor = self.hexStringToUIColor(hex: "#00B16A")
+            cell.detailTextLabel?.text = String(singleMessage.count) + " 👍"
+            
         } else if (singleMessage.sentiment == "1" ){
             cell.backgroundColor = self.hexStringToUIColor(hex: "#FABE58")
+            cell.detailTextLabel?.text = String(singleMessage.count) + " 😐"
         } else if (singleMessage.sentiment == "2" ){
             cell.backgroundColor = self.hexStringToUIColor(hex: "#E74C3C")
+            cell.detailTextLabel?.text = String(singleMessage.count) + " 💩"
         }
         cell.layer.borderColor = UIColor.white.cgColor
         cell.layer.borderWidth = 6
