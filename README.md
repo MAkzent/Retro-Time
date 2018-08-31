@@ -1,13 +1,10 @@
 <p align="center">
+  <h1>Retro Time!</h1>
   <img alt="appIcon" title="appIcon" src="images/appIcon.png" width="auto" height="160px">
 </p>
 
 <p align="center">
   Native iOS App for Awesome Retros!
-</p>
-
-<p align="center">
-  <img alt="demo" title="demo" src="images/demo.gif" width="auto" height="400px">
 </p>
 
 ## Table of Contents
@@ -26,6 +23,10 @@ Welcome! This handy app aims to make your retros more efficient and fun. Users c
 This app was created during my time as a student at Code Chrysalis. It was built in a 2-day sprint in which we pick up a new language and build something with it.
 
 ## Features
+
+<p align="center">
+  <img alt="demo" title="demo" src="images/demo.gif" width="auto" height="500px">
+</p>
 
 Current Features:
 
